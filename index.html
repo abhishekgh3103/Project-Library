@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="add-new-btn">Add New Book</button>
+    <form id="add-new-form" style="display: none;">
+        <label for="title">Title: </label><br>
+        <input type="text" id="title">
+        <label for="Author">Author: </label><br>
+        <input type="text" id="Author">
+        <label for="pages">Pages: </label><br>
+        <input type="text" id="pages">
+        <label for="Read">Read: </label>
+        <input type="checkbox" id="Read"><br><br>
+        <input type="submit" value="Add Book">
+    </form>
+    <div id="library"></div>
+    <script src="script.js"></script>
+</body>
+</html>

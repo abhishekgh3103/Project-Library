@@ -1,0 +1,65 @@
+#add-new-btn {
+    display: block;
+    background-color: aquamarine;
+    color: #004d40;
+    font-weight: bold;
+    padding: 20px;
+    border: 2px solid #004d40;
+    margin: 0 auto;
+}
+
+#add-new-form{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #004d40;
+    color: aliceblue;
+}
+label{
+    display: inline-block;
+}
+input{
+    width: 80%;
+    margin: 10px 20px;
+}
+
+input#read{
+    width: auto;
+    margin: auto;
+    align-self:normal;
+}
+
+input[type=submit]{
+    padding: 10px;
+    font-weight: bolder;
+    color: #004d40;
+}
+
+input[type=submit]:hover{
+    background-color: #616161;
+    color: aliceblue;
+}
+
+#library{
+    display: flex;
+    flex-direction: row;
+}
+.book-card{
+    display: inline-block;
+    text-align: center;
+    background-color:#bdbdbd;
+    margin: 10px;
+    padding: 10px;
+}
+
+.class-body button{
+    display: block;
+    background-color: aquamarine;
+    color: #004d40;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid #004d40;
+    border-radius: 10%;
+    padding: 5px;
+    margin: 2px auto;
+}
